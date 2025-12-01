@@ -1,0 +1,17 @@
+[build-system]
+requires = ["maturin>=1.10,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "yapyrg"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dynamic = ["version"]
+description = "A blazingly fast recursive file searcher powered by Ripgrep engines."
+readme = "README.md"
+authors = [{name = "Bruno", email = "bruno@portis.dev"}]
+urls = { Repository = "https://github.com/brunoportis/yapyrg" }
